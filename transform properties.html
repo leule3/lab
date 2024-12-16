@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.a{
+    margin-right: 30px;
+    border: 10px solid grey;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    transform: rotate(45deg);    
+}
+.b{
+    margin-right: 30px;
+    border: 10px solid blue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    transform: skew(6deg,7deg);    
+}
+.c{
+    border: 10px solid red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    transition: transform 0.5s ;   
+}
+.c:hover{
+    transform: scale(2)  ;
+}
+.d{
+    border: 10px solid red;
+    height: 100px;
+    width: 100px;
+    transform: translate(600px,300px);
+}
+
+    </style>
+</head>
+<body>
+    <span class="a"></span>
+    <span class="b"></span>
+    <span class="c"></span>
+    <span class="d"></span>
+</body>
+</html>
